@@ -3,12 +3,39 @@
     font-size: 16 px;
 }
 body{
-    background-color: rgba(137, 43, 226, 0.471);
+    background-color: rgba(4, 0, 253, 0.992);
 }
 
 main{
+    border-radius: 30px 0px 30px 0px;
+    position: absolute;
     background-color: white;
     width: 500px;
-    margin: 0;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.397);
+    padding: 20px;
+    margin: 10% 50% auto 30%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.508);
+}
+header{
+    width: 100%;
+}
+.tittle{
+    white-space: nowrap;
+    width: 50px;
+    margin: 30px 10px;
+    color: blue;
+    font-size: 60px;
+    
+}
+article{
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.art_um{
+    margin-left: -70px;
+}
+article > h2{
+    font-size: 30px;
 }

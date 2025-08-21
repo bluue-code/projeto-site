@@ -111,3 +111,11 @@ article > h2{
     padding: 10px;
     background: linear-gradient(to bottom, #d3cfe9 0%,#b1aade 17%,#6b61c7 50%,#4a3ac2 51%,#4942d6 59%,#4c4ff0 71%,#413ac2 84%,#39268c 100%);
 }
+@media only screen and (min-width: 320px) {
+    .tittle{
+        font-size: 2rem;
+    }
+    article > h2{
+        font-size: 1.5rem;
+    }
+}

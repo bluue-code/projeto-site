@@ -3,12 +3,111 @@
     font-size: 16 px;
 }
 body{
-    background-color: rgba(137, 43, 226, 0.471);
+    background-image: url(https://i.redd.it/tried-making-frutiger-aurora-metro-wallpapers-on-autodesk-v0-5bov053ua0dd1.jpg?width=1920&format=pjpg&auto=webp&s=b853b85965eaa4ac67e2f852b03e40830ce10b22);
+    margin: 2% 10% 60% 15%;
 }
 
 main{
-    background-color: white;
-    width: 500px;
-    margin: 0;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.397);
+    border: 4px solid rgba(0, 0, 0, 0.611);
+    border-radius: 30px;
+    position: absolute;
+    background-color: rgba(10, 8, 80, 0.622);
+    width: 70%;
+    height: auto;
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 19px 19px 20px rgba(0, 0, 0, 0.508);
+}
+header{
+    width: 100%;
+}
+.tittle{
+    box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.508);
+    text-align: center;
+    background: linear-gradient(to bottom, #d3cfe9 0%,#b1aade 17%,#6b61c7 50%,#4a3ac2 51%,#4942d6 59%,#4c4ff0 71%,#413ac2 84%,#39268c 100%);
+    white-space: nowrap;
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px 30px 0 0;
+    margin: -20px 40px 10px -20px;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    
+}
+article{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.407);
+    text-align: left;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.508);
+}
+article > h2{
+    font-size: 30px;
+}
+
+.art_um{
+    border-radius: 30px 30px 0 0;
+    border: 4px solid hsla(0, 0%, 0%, 0.712);
+    border-bottom: none;
+    padding: 10px;
+}
+.art_um > h2{
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    margin: -10px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #d3cfe9 0%,#b1aade 17%,#6b61c7 50%,#4a3ac2 51%,#4942d6 59%,#4c4ff0 71%,#413ac2 84%,#39268c 100%);
+}
+.art_dois{
+    margin-top: -11px;
+    border: 4px solid rgba(0, 0, 0, 0.712);
+    border-bottom: none;
+    border-top: none;
+    padding: 10px;
+}
+.art_dois > h2{
+    width: 100%;
+    margin: -10px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #d3cfe9 0%,#b1aade 17%,#6b61c7 50%,#4a3ac2 51%,#4942d6 59%,#4c4ff0 71%,#413ac2 84%,#39268c 100%);
+}
+.art_tres{
+    margin-top: -11px;
+    border: 4px solid rgba(0, 0, 0, 0.712);
+    border-bottom: none;
+    border-top: none;
+    padding: 10px;
+}
+.art_tres > h2{
+    width: 100%;
+    margin: -10px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #d3cfe9 0%,#b1aade 17%,#6b61c7 50%,#4a3ac2 51%,#4942d6 59%,#4c4ff0 71%,#413ac2 84%,#39268c 100%);
+}
+.art_quatro{
+    margin-top: -11px;
+    border: 4px solid rgb(0, 0, 0, 0.712);
+    border-bottom: none;
+    border-top: none;
+    padding: 10px;
+}
+.art_quatro > h2{
+    width: 100%;
+    margin: -10px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #d3cfe9 0%,#b1aade 17%,#6b61c7 50%,#4a3ac2 51%,#4942d6 59%,#4c4ff0 71%,#413ac2 84%,#39268c 100%);
+}
+.art_cinco{
+    border-radius: 0 0 30px 30px;
+    margin-top: -11px;
+    border: 4px solid rgb(0, 0, 0, 0.712);
+    border-top: none;
+    padding: 10px;
+}
+.art_cinco > h2{
+    width: 100%;
+    margin: -10px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #d3cfe9 0%,#b1aade 17%,#6b61c7 50%,#4a3ac2 51%,#4942d6 59%,#4c4ff0 71%,#413ac2 84%,#39268c 100%);
 }
